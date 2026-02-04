@@ -1,0 +1,719 @@
+{
+    "courses": [
+        {
+            "id": "course_001",
+            "title": "Python for Data Science Bootcamp",
+            "provider": "DataCamp",
+            "skills_taught": [
+                "python",
+                "pandas",
+                "numpy",
+                "data_analysis"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 40,
+            "rating": 4.7,
+            "num_reviews": 15420,
+            "price": 0,
+            "category": "Data Science",
+            "description": "Master Python programming fundamentals with a focus on data science applications.",
+            "url": "https://example.com/python-ds"
+        },
+        {
+            "id": "course_002",
+            "title": "SQL Masterclass: From Zero to Hero",
+            "provider": "Udemy",
+            "skills_taught": [
+                "sql",
+                "sql_advanced",
+                "postgresql"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 25,
+            "rating": 4.8,
+            "num_reviews": 23100,
+            "price": 49.99,
+            "category": "Database",
+            "description": "Complete SQL course from basics to advanced queries and database design.",
+            "url": "https://example.com/sql-master"
+        },
+        {
+            "id": "course_003",
+            "title": "Machine Learning A-Z",
+            "provider": "Coursera",
+            "skills_taught": [
+                "ml_fundamentals",
+                "supervised_learning",
+                "unsupervised_learning",
+                "scikit_learn"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 60,
+            "rating": 4.6,
+            "num_reviews": 45000,
+            "price": 79.00,
+            "category": "Machine Learning",
+            "description": "Comprehensive machine learning course covering all major algorithms and techniques.",
+            "url": "https://example.com/ml-az"
+        },
+        {
+            "id": "course_004",
+            "title": "Deep Learning Specialization",
+            "provider": "Coursera",
+            "skills_taught": [
+                "deep_learning",
+                "tensorflow",
+                "neural_networks"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 100,
+            "rating": 4.9,
+            "num_reviews": 52000,
+            "price": 149.00,
+            "category": "Machine Learning",
+            "description": "Master deep learning with Andrew Ng. Build neural networks and lead ML projects.",
+            "url": "https://example.com/deep-learning"
+        },
+        {
+            "id": "course_005",
+            "title": "PyTorch for Deep Learning",
+            "provider": "fast.ai",
+            "skills_taught": [
+                "deep_learning",
+                "pytorch",
+                "computer_vision"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 50,
+            "rating": 4.8,
+            "num_reviews": 18000,
+            "price": 0,
+            "category": "Machine Learning",
+            "description": "Practical deep learning with PyTorch, from fundamentals to cutting-edge techniques.",
+            "url": "https://example.com/pytorch-dl"
+        },
+        {
+            "id": "course_006",
+            "title": "Natural Language Processing with Transformers",
+            "provider": "Hugging Face",
+            "skills_taught": [
+                "nlp",
+                "deep_learning",
+                "transformers"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 45,
+            "rating": 4.7,
+            "num_reviews": 12000,
+            "price": 0,
+            "category": "Machine Learning",
+            "description": "Learn to use transformer models for NLP tasks including text classification, NER, and more.",
+            "url": "https://example.com/nlp-transformers"
+        },
+        {
+            "id": "course_007",
+            "title": "Large Language Models: From Theory to Practice",
+            "provider": "DeepLearning.AI",
+            "skills_taught": [
+                "llm",
+                "nlp",
+                "deep_learning",
+                "rag"
+            ],
+            "difficulty": "Expert",
+            "duration_hours": 35,
+            "rating": 4.9,
+            "num_reviews": 8500,
+            "price": 99.00,
+            "category": "Machine Learning",
+            "description": "Understand LLMs, prompt engineering, fine-tuning, and building RAG applications.",
+            "url": "https://example.com/llm-practice"
+        },
+        {
+            "id": "course_008",
+            "title": "Building RAG Applications",
+            "provider": "LangChain",
+            "skills_taught": [
+                "rag",
+                "llm",
+                "vector_databases"
+            ],
+            "difficulty": "Expert",
+            "duration_hours": 20,
+            "rating": 4.6,
+            "num_reviews": 3200,
+            "price": 0,
+            "category": "Machine Learning",
+            "description": "Build production-ready RAG systems with vector databases and LLMs.",
+            "url": "https://example.com/rag-apps"
+        },
+        {
+            "id": "course_009",
+            "title": "Docker Mastery",
+            "provider": "Udemy",
+            "skills_taught": [
+                "docker",
+                "containers"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 22,
+            "rating": 4.7,
+            "num_reviews": 67000,
+            "price": 59.99,
+            "category": "DevOps",
+            "description": "Build, compose, deploy, and manage containers using Docker.",
+            "url": "https://example.com/docker"
+        },
+        {
+            "id": "course_010",
+            "title": "Kubernetes for Developers",
+            "provider": "Linux Foundation",
+            "skills_taught": [
+                "kubernetes",
+                "docker",
+                "cloud_native"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 40,
+            "rating": 4.5,
+            "num_reviews": 12500,
+            "price": 299.00,
+            "category": "DevOps",
+            "description": "Deploy and manage containerized applications with Kubernetes.",
+            "url": "https://example.com/k8s"
+        },
+        {
+            "id": "course_011",
+            "title": "AWS Solutions Architect Associate",
+            "provider": "A Cloud Guru",
+            "skills_taught": [
+                "aws",
+                "cloud_fundamentals",
+                "cloud_architecture"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 50,
+            "rating": 4.6,
+            "num_reviews": 89000,
+            "price": 35.00,
+            "category": "Cloud Computing",
+            "description": "Prepare for AWS SAA certification and learn cloud architecture fundamentals.",
+            "url": "https://example.com/aws-saa"
+        },
+        {
+            "id": "course_012",
+            "title": "Terraform: Infrastructure as Code",
+            "provider": "HashiCorp",
+            "skills_taught": [
+                "terraform",
+                "infrastructure_as_code",
+                "cloud_fundamentals"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 25,
+            "rating": 4.7,
+            "num_reviews": 15600,
+            "price": 0,
+            "category": "DevOps",
+            "description": "Automate infrastructure provisioning with Terraform across multiple cloud providers.",
+            "url": "https://example.com/terraform"
+        },
+        {
+            "id": "course_013",
+            "title": "CI/CD with GitHub Actions",
+            "provider": "GitHub",
+            "skills_taught": [
+                "ci_cd",
+                "git",
+                "github_actions"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 15,
+            "rating": 4.5,
+            "num_reviews": 9800,
+            "price": 0,
+            "category": "DevOps",
+            "description": "Build automated CI/CD pipelines with GitHub Actions.",
+            "url": "https://example.com/github-actions"
+        },
+        {
+            "id": "course_014",
+            "title": "MLOps Fundamentals",
+            "provider": "Google Cloud",
+            "skills_taught": [
+                "mlops",
+                "ml_fundamentals",
+                "docker",
+                "kubernetes"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 35,
+            "rating": 4.6,
+            "num_reviews": 7200,
+            "price": 0,
+            "category": "Machine Learning",
+            "description": "Learn to deploy, monitor, and maintain ML models in production.",
+            "url": "https://example.com/mlops"
+        },
+        {
+            "id": "course_015",
+            "title": "Statistics for Data Science",
+            "provider": "Khan Academy",
+            "skills_taught": [
+                "statistics",
+                "data_analysis"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 30,
+            "rating": 4.8,
+            "num_reviews": 120000,
+            "price": 0,
+            "category": "Data Science",
+            "description": "Complete statistics course covering probability, distributions, and hypothesis testing.",
+            "url": "https://example.com/stats"
+        },
+        {
+            "id": "course_016",
+            "title": "Data Visualization with Python",
+            "provider": "DataCamp",
+            "skills_taught": [
+                "data_visualization",
+                "python",
+                "matplotlib",
+                "seaborn"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 20,
+            "rating": 4.5,
+            "num_reviews": 18500,
+            "price": 29.00,
+            "category": "Data Science",
+            "description": "Create stunning visualizations with matplotlib, seaborn, and plotly.",
+            "url": "https://example.com/dataviz"
+        },
+        {
+            "id": "course_017",
+            "title": "React - The Complete Guide",
+            "provider": "Udemy",
+            "skills_taught": [
+                "react",
+                "javascript",
+                "html_css"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 48,
+            "rating": 4.7,
+            "num_reviews": 175000,
+            "price": 89.99,
+            "category": "Web Development",
+            "description": "Master React including Hooks, Redux, React Router, and Next.js.",
+            "url": "https://example.com/react"
+        },
+        {
+            "id": "course_018",
+            "title": "Node.js - The Complete Guide",
+            "provider": "Udemy",
+            "skills_taught": [
+                "nodejs",
+                "javascript",
+                "rest_api"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 40,
+            "rating": 4.6,
+            "num_reviews": 89000,
+            "price": 79.99,
+            "category": "Web Development",
+            "description": "Build fast, scalable backend applications with Node.js and Express.",
+            "url": "https://example.com/nodejs"
+        },
+        {
+            "id": "course_019",
+            "title": "FastAPI Complete Course",
+            "provider": "TestDriven.io",
+            "skills_taught": [
+                "fastapi",
+                "python",
+                "rest_api"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 25,
+            "rating": 4.8,
+            "num_reviews": 4500,
+            "price": 49.00,
+            "category": "Web Development",
+            "description": "Build modern, fast web APIs with Python and FastAPI.",
+            "url": "https://example.com/fastapi"
+        },
+        {
+            "id": "course_020",
+            "title": "MongoDB University: M001",
+            "provider": "MongoDB",
+            "skills_taught": [
+                "mongodb",
+                "nosql",
+                "database"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 15,
+            "rating": 4.6,
+            "num_reviews": 32000,
+            "price": 0,
+            "category": "Database",
+            "description": "Learn MongoDB basics including CRUD operations and aggregation.",
+            "url": "https://example.com/mongodb"
+        },
+        {
+            "id": "course_021",
+            "title": "Vector Databases: Pinecone Essentials",
+            "provider": "Pinecone",
+            "skills_taught": [
+                "vector_databases",
+                "embeddings"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 10,
+            "rating": 4.5,
+            "num_reviews": 2100,
+            "price": 0,
+            "category": "Database",
+            "description": "Learn to use vector databases for similarity search and ML applications.",
+            "url": "https://example.com/pinecone"
+        },
+        {
+            "id": "course_022",
+            "title": "Linux Command Line Basics",
+            "provider": "Linux Foundation",
+            "skills_taught": [
+                "linux",
+                "bash"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 20,
+            "rating": 4.7,
+            "num_reviews": 45000,
+            "price": 0,
+            "category": "DevOps",
+            "description": "Master the Linux command line for development and administration.",
+            "url": "https://example.com/linux"
+        },
+        {
+            "id": "course_023",
+            "title": "Git & GitHub Complete Course",
+            "provider": "freeCodeCamp",
+            "skills_taught": [
+                "git",
+                "version_control",
+                "github"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 12,
+            "rating": 4.8,
+            "num_reviews": 78000,
+            "price": 0,
+            "category": "DevOps",
+            "description": "Learn version control with Git and collaboration with GitHub.",
+            "url": "https://example.com/git"
+        },
+        {
+            "id": "course_024",
+            "title": "System Design Interview Prep",
+            "provider": "Educative",
+            "skills_taught": [
+                "system_design",
+                "cloud_architecture",
+                "scalability"
+            ],
+            "difficulty": "Expert",
+            "duration_hours": 40,
+            "rating": 4.8,
+            "num_reviews": 25000,
+            "price": 79.00,
+            "category": "Soft Skills",
+            "description": "Prepare for system design interviews at top tech companies.",
+            "url": "https://example.com/system-design"
+        },
+        {
+            "id": "course_025",
+            "title": "Technical Leadership Essentials",
+            "provider": "LinkedIn Learning",
+            "skills_taught": [
+                "leadership",
+                "communication",
+                "project_management"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 15,
+            "rating": 4.5,
+            "num_reviews": 12000,
+            "price": 29.99,
+            "category": "Soft Skills",
+            "description": "Develop skills to lead technical teams effectively.",
+            "url": "https://example.com/tech-leadership"
+        },
+        {
+            "id": "course_026",
+            "title": "Azure Fundamentals AZ-900",
+            "provider": "Microsoft Learn",
+            "skills_taught": [
+                "azure",
+                "cloud_fundamentals"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 20,
+            "rating": 4.6,
+            "num_reviews": 56000,
+            "price": 0,
+            "category": "Cloud Computing",
+            "description": "Learn Azure cloud concepts and prepare for AZ-900 certification.",
+            "url": "https://example.com/azure-fund"
+        },
+        {
+            "id": "course_027",
+            "title": "GCP Professional Cloud Architect",
+            "provider": "Google Cloud",
+            "skills_taught": [
+                "gcp",
+                "cloud_architecture",
+                "cloud_fundamentals"
+            ],
+            "difficulty": "Expert",
+            "duration_hours": 60,
+            "rating": 4.7,
+            "num_reviews": 18000,
+            "price": 0,
+            "category": "Cloud Computing",
+            "description": "Prepare for GCP Professional Cloud Architect certification.",
+            "url": "https://example.com/gcp-architect"
+        },
+        {
+            "id": "course_028",
+            "title": "Serverless Framework Bootcamp",
+            "provider": "Serverless Inc",
+            "skills_taught": [
+                "serverless",
+                "aws",
+                "cloud_native"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 18,
+            "rating": 4.5,
+            "num_reviews": 5600,
+            "price": 0,
+            "category": "Cloud Computing",
+            "description": "Build serverless applications with AWS Lambda and the Serverless Framework.",
+            "url": "https://example.com/serverless"
+        },
+        {
+            "id": "course_029",
+            "title": "Prometheus & Grafana Monitoring",
+            "provider": "Grafana Labs",
+            "skills_taught": [
+                "monitoring",
+                "prometheus",
+                "grafana"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 20,
+            "rating": 4.6,
+            "num_reviews": 8900,
+            "price": 0,
+            "category": "DevOps",
+            "description": "Set up comprehensive monitoring and observability for your applications.",
+            "url": "https://example.com/monitoring"
+        },
+        {
+            "id": "course_030",
+            "title": "GraphQL Complete Developer Guide",
+            "provider": "Apollo",
+            "skills_taught": [
+                "graphql",
+                "api",
+                "javascript"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 28,
+            "rating": 4.7,
+            "num_reviews": 11000,
+            "price": 0,
+            "category": "Web Development",
+            "description": "Master GraphQL for building flexible, powerful APIs.",
+            "url": "https://example.com/graphql"
+        },
+        {
+            "id": "course_031",
+            "title": "Go Programming Complete Guide",
+            "provider": "Udemy",
+            "skills_taught": [
+                "go",
+                "microservices"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 35,
+            "rating": 4.6,
+            "num_reviews": 24000,
+            "price": 69.99,
+            "category": "Programming Languages",
+            "description": "Learn Go programming for building efficient, scalable applications.",
+            "url": "https://example.com/golang"
+        },
+        {
+            "id": "course_032",
+            "title": "Redis Deep Dive",
+            "provider": "Redis University",
+            "skills_taught": [
+                "redis",
+                "caching",
+                "database"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 15,
+            "rating": 4.7,
+            "num_reviews": 9500,
+            "price": 0,
+            "category": "Database",
+            "description": "Master Redis for caching, session management, and real-time applications.",
+            "url": "https://example.com/redis"
+        },
+        {
+            "id": "course_033",
+            "title": "PostgreSQL Performance Tuning",
+            "provider": "Pluralsight",
+            "skills_taught": [
+                "postgresql",
+                "sql_advanced",
+                "database_design"
+            ],
+            "difficulty": "Expert",
+            "duration_hours": 22,
+            "rating": 4.8,
+            "num_reviews": 6700,
+            "price": 35.00,
+            "category": "Database",
+            "description": "Optimize PostgreSQL for high-performance applications.",
+            "url": "https://example.com/postgres-perf"
+        },
+        {
+            "id": "course_034",
+            "title": "Computer Vision with OpenCV",
+            "provider": "OpenCV.org",
+            "skills_taught": [
+                "computer_vision",
+                "opencv",
+                "python"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 30,
+            "rating": 4.5,
+            "num_reviews": 14000,
+            "price": 0,
+            "category": "Machine Learning",
+            "description": "Build computer vision applications with OpenCV and Python.",
+            "url": "https://example.com/opencv"
+        },
+        {
+            "id": "course_035",
+            "title": "HTML & CSS Complete Course",
+            "provider": "freeCodeCamp",
+            "skills_taught": [
+                "html_css",
+                "web_development"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 20,
+            "rating": 4.7,
+            "num_reviews": 234000,
+            "price": 0,
+            "category": "Web Development",
+            "description": "Learn modern HTML5 and CSS3 from scratch.",
+            "url": "https://example.com/html-css"
+        },
+        {
+            "id": "course_036",
+            "title": "JavaScript: The Complete Guide",
+            "provider": "Udemy",
+            "skills_taught": [
+                "javascript",
+                "web_development"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 52,
+            "rating": 4.7,
+            "num_reviews": 145000,
+            "price": 89.99,
+            "category": "Web Development",
+            "description": "Master JavaScript from basics to advanced concepts including ES6+.",
+            "url": "https://example.com/javascript"
+        },
+        {
+            "id": "course_037",
+            "title": "Technical Communication for Engineers",
+            "provider": "Coursera",
+            "skills_taught": [
+                "communication",
+                "documentation",
+                "presentation"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 20,
+            "rating": 4.4,
+            "num_reviews": 8900,
+            "price": 49.00,
+            "category": "Soft Skills",
+            "description": "Improve your technical writing and presentation skills.",
+            "url": "https://example.com/tech-comm"
+        },
+        {
+            "id": "course_038",
+            "title": "Database Design Fundamentals",
+            "provider": "Stanford Online",
+            "skills_taught": [
+                "database_design",
+                "sql",
+                "data_modeling"
+            ],
+            "difficulty": "Intermediate",
+            "duration_hours": 25,
+            "rating": 4.6,
+            "num_reviews": 21000,
+            "price": 0,
+            "category": "Database",
+            "description": "Learn relational database design principles and normalization.",
+            "url": "https://example.com/db-design"
+        },
+        {
+            "id": "course_039",
+            "title": "Java Complete Course",
+            "provider": "Udemy",
+            "skills_taught": [
+                "java",
+                "programming"
+            ],
+            "difficulty": "Beginner",
+            "duration_hours": 80,
+            "rating": 4.6,
+            "num_reviews": 198000,
+            "price": 99.99,
+            "category": "Programming Languages",
+            "description": "Complete Java programming from basics to advanced OOP concepts.",
+            "url": "https://example.com/java"
+        },
+        {
+            "id": "course_040",
+            "title": "Rust Programming Fundamentals",
+            "provider": "The Rust Foundation",
+            "skills_taught": [
+                "rust",
+                "systems_programming"
+            ],
+            "difficulty": "Advanced",
+            "duration_hours": 40,
+            "rating": 4.7,
+            "num_reviews": 12000,
+            "price": 0,
+            "category": "Programming Languages",
+            "description": "Learn Rust for safe, concurrent, and high-performance programming.",
+            "url": "https://example.com/rust"
+        }
+    ]
+}

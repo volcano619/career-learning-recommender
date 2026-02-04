@@ -1,0 +1,617 @@
+{
+    "users": [
+        {
+            "id": "user_001",
+            "name": "Alex Chen",
+            "current_role": "Junior Data Analyst",
+            "target_role": "data_scientist",
+            "years_experience": 2,
+            "current_skills": {
+                "python": 3,
+                "sql": 4,
+                "data_analysis": 3,
+                "statistics": 2,
+                "excel": 4
+            },
+            "learning_style": "visual",
+            "weekly_hours": 10,
+            "interests": [
+                "machine learning",
+                "finance"
+            ]
+        },
+        {
+            "id": "user_002",
+            "name": "Sarah Johnson",
+            "current_role": "Software Developer",
+            "target_role": "ml_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "python": 4,
+                "java": 4,
+                "git": 4,
+                "sql": 3,
+                "docker": 3,
+                "rest_api": 4
+            },
+            "learning_style": "hands-on",
+            "weekly_hours": 8,
+            "interests": [
+                "deep learning",
+                "NLP"
+            ]
+        },
+        {
+            "id": "user_003",
+            "name": "Michael Brown",
+            "current_role": "System Administrator",
+            "target_role": "devops_engineer",
+            "years_experience": 5,
+            "current_skills": {
+                "linux": 5,
+                "bash": 4,
+                "git": 3,
+                "python": 2,
+                "networking": 4
+            },
+            "learning_style": "reading",
+            "weekly_hours": 6,
+            "interests": [
+                "automation",
+                "cloud"
+            ]
+        },
+        {
+            "id": "user_004",
+            "name": "Emily Davis",
+            "current_role": "Backend Developer",
+            "target_role": "cloud_architect",
+            "years_experience": 6,
+            "current_skills": {
+                "python": 4,
+                "java": 3,
+                "sql": 4,
+                "docker": 3,
+                "git": 4,
+                "linux": 3,
+                "rest_api": 4
+            },
+            "learning_style": "video",
+            "weekly_hours": 12,
+            "interests": [
+                "distributed systems",
+                "kubernetes"
+            ]
+        },
+        {
+            "id": "user_005",
+            "name": "David Kim",
+            "current_role": "Frontend Developer",
+            "target_role": "fullstack_developer",
+            "years_experience": 3,
+            "current_skills": {
+                "javascript": 4,
+                "react": 4,
+                "html_css": 5,
+                "git": 3
+            },
+            "learning_style": "project-based",
+            "weekly_hours": 8,
+            "interests": [
+                "web performance",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "user_006",
+            "name": "Lisa Wang",
+            "current_role": "Data Scientist",
+            "target_role": "llm_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "python": 5,
+                "ml_fundamentals": 4,
+                "statistics": 4,
+                "data_analysis": 4,
+                "deep_learning": 3,
+                "pandas": 4,
+                "numpy": 4
+            },
+            "learning_style": "research",
+            "weekly_hours": 15,
+            "interests": [
+                "transformers",
+                "GenAI"
+            ]
+        },
+        {
+            "id": "user_007",
+            "name": "James Wilson",
+            "current_role": "QA Engineer",
+            "target_role": "devops_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "python": 3,
+                "git": 4,
+                "linux": 2,
+                "testing": 5
+            },
+            "learning_style": "structured",
+            "weekly_hours": 8,
+            "interests": [
+                "automation",
+                "CI/CD"
+            ]
+        },
+        {
+            "id": "user_008",
+            "name": "Amanda Martinez",
+            "current_role": "Business Analyst",
+            "target_role": "data_scientist",
+            "years_experience": 3,
+            "current_skills": {
+                "sql": 4,
+                "excel": 5,
+                "data_analysis": 3,
+                "communication": 4
+            },
+            "learning_style": "visual",
+            "weekly_hours": 6,
+            "interests": [
+                "predictive analytics",
+                "visualization"
+            ]
+        },
+        {
+            "id": "user_009",
+            "name": "Robert Taylor",
+            "current_role": "DevOps Engineer",
+            "target_role": "cloud_architect",
+            "years_experience": 5,
+            "current_skills": {
+                "docker": 5,
+                "kubernetes": 4,
+                "linux": 4,
+                "git": 4,
+                "ci_cd": 4,
+                "aws": 3,
+                "terraform": 3
+            },
+            "learning_style": "hands-on",
+            "weekly_hours": 10,
+            "interests": [
+                "multi-cloud",
+                "security"
+            ]
+        },
+        {
+            "id": "user_010",
+            "name": "Jennifer Lee",
+            "current_role": "Data Engineer",
+            "target_role": "ml_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "python": 4,
+                "sql": 5,
+                "sql_advanced": 4,
+                "aws": 3,
+                "docker": 3,
+                "data_analysis": 3
+            },
+            "learning_style": "project-based",
+            "weekly_hours": 12,
+            "interests": [
+                "MLOps",
+                "feature stores"
+            ]
+        },
+        {
+            "id": "user_011",
+            "name": "Chris Anderson",
+            "current_role": "Junior Developer",
+            "target_role": "backend_developer",
+            "years_experience": 1,
+            "current_skills": {
+                "python": 2,
+                "git": 2,
+                "html_css": 3
+            },
+            "learning_style": "video",
+            "weekly_hours": 15,
+            "interests": [
+                "APIs",
+                "databases"
+            ]
+        },
+        {
+            "id": "user_012",
+            "name": "Nicole Thompson",
+            "current_role": "ML Engineer",
+            "target_role": "ai_researcher",
+            "years_experience": 5,
+            "current_skills": {
+                "python": 5,
+                "ml_fundamentals": 5,
+                "deep_learning": 4,
+                "pytorch": 4,
+                "docker": 3,
+                "kubernetes": 3,
+                "mlops": 3
+            },
+            "learning_style": "research",
+            "weekly_hours": 20,
+            "interests": [
+                "foundation models",
+                "multimodal AI"
+            ]
+        },
+        {
+            "id": "user_013",
+            "name": "Daniel Garcia",
+            "current_role": "Full Stack Developer",
+            "target_role": "devops_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "javascript": 4,
+                "react": 4,
+                "nodejs": 4,
+                "git": 4,
+                "sql": 3,
+                "docker": 2
+            },
+            "learning_style": "hands-on",
+            "weekly_hours": 8,
+            "interests": [
+                "infrastructure",
+                "automation"
+            ]
+        },
+        {
+            "id": "user_014",
+            "name": "Stephanie Robinson",
+            "current_role": "Data Analyst",
+            "target_role": "data_engineer",
+            "years_experience": 3,
+            "current_skills": {
+                "sql": 4,
+                "python": 3,
+                "data_analysis": 4,
+                "data_visualization": 3,
+                "excel": 4
+            },
+            "learning_style": "structured",
+            "weekly_hours": 10,
+            "interests": [
+                "data pipelines",
+                "cloud"
+            ]
+        },
+        {
+            "id": "user_015",
+            "name": "Kevin Moore",
+            "current_role": "Senior Developer",
+            "target_role": "cloud_architect",
+            "years_experience": 8,
+            "current_skills": {
+                "java": 5,
+                "python": 4,
+                "sql": 4,
+                "git": 5,
+                "docker": 4,
+                "linux": 4,
+                "rest_api": 5,
+                "microservices": 4
+            },
+            "learning_style": "reading",
+            "weekly_hours": 6,
+            "interests": [
+                "distributed systems",
+                "scalability"
+            ]
+        },
+        {
+            "id": "user_016",
+            "name": "Rachel White",
+            "current_role": "Student",
+            "target_role": "data_scientist",
+            "years_experience": 0,
+            "current_skills": {
+                "python": 2,
+                "statistics": 2
+            },
+            "learning_style": "video",
+            "weekly_hours": 20,
+            "interests": [
+                "AI",
+                "healthcare"
+            ]
+        },
+        {
+            "id": "user_017",
+            "name": "Thomas Harris",
+            "current_role": "Product Manager",
+            "target_role": "data_scientist",
+            "years_experience": 5,
+            "current_skills": {
+                "sql": 3,
+                "communication": 5,
+                "data_analysis": 2,
+                "excel": 4
+            },
+            "learning_style": "visual",
+            "weekly_hours": 8,
+            "interests": [
+                "product analytics",
+                "experimentation"
+            ]
+        },
+        {
+            "id": "user_018",
+            "name": "Michelle Clark",
+            "current_role": "DevOps Engineer",
+            "target_role": "ml_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "docker": 5,
+                "kubernetes": 4,
+                "python": 3,
+                "linux": 4,
+                "aws": 4,
+                "ci_cd": 4,
+                "terraform": 3
+            },
+            "learning_style": "project-based",
+            "weekly_hours": 10,
+            "interests": [
+                "MLOps",
+                "model deployment"
+            ]
+        },
+        {
+            "id": "user_019",
+            "name": "Andrew Lewis",
+            "current_role": "Junior Data Scientist",
+            "target_role": "llm_engineer",
+            "years_experience": 2,
+            "current_skills": {
+                "python": 4,
+                "ml_fundamentals": 3,
+                "statistics": 3,
+                "data_analysis": 3,
+                "pandas": 3,
+                "numpy": 3
+            },
+            "learning_style": "hands-on",
+            "weekly_hours": 15,
+            "interests": [
+                "LLMs",
+                "chatbots"
+            ]
+        },
+        {
+            "id": "user_020",
+            "name": "Jessica Walker",
+            "current_role": "Software Engineer",
+            "target_role": "backend_developer",
+            "years_experience": 3,
+            "current_skills": {
+                "java": 4,
+                "python": 3,
+                "git": 4,
+                "sql": 3,
+                "rest_api": 3
+            },
+            "learning_style": "structured",
+            "weekly_hours": 8,
+            "interests": [
+                "microservices",
+                "API design"
+            ]
+        },
+        {
+            "id": "user_021",
+            "name": "Brian Young",
+            "current_role": "Cloud Engineer",
+            "target_role": "devops_engineer",
+            "years_experience": 3,
+            "current_skills": {
+                "aws": 4,
+                "cloud_fundamentals": 4,
+                "linux": 3,
+                "docker": 3,
+                "terraform": 2
+            },
+            "learning_style": "hands-on",
+            "weekly_hours": 10,
+            "interests": [
+                "automation",
+                "infrastructure"
+            ]
+        },
+        {
+            "id": "user_022",
+            "name": "Laura Allen",
+            "current_role": "Research Scientist",
+            "target_role": "ai_researcher",
+            "years_experience": 6,
+            "current_skills": {
+                "python": 5,
+                "statistics": 5,
+                "deep_learning": 4,
+                "pytorch": 3,
+                "nlp": 3,
+                "computer_vision": 3
+            },
+            "learning_style": "research",
+            "weekly_hours": 25,
+            "interests": [
+                "multimodal learning",
+                "AI safety"
+            ]
+        },
+        {
+            "id": "user_023",
+            "name": "Steven King",
+            "current_role": "Database Administrator",
+            "target_role": "data_engineer",
+            "years_experience": 7,
+            "current_skills": {
+                "sql": 5,
+                "sql_advanced": 5,
+                "postgresql": 5,
+                "database_design": 4,
+                "linux": 3
+            },
+            "learning_style": "reading",
+            "weekly_hours": 6,
+            "interests": [
+                "data pipelines",
+                "cloud databases"
+            ]
+        },
+        {
+            "id": "user_024",
+            "name": "Kimberly Scott",
+            "current_role": "UI/UX Designer",
+            "target_role": "fullstack_developer",
+            "years_experience": 4,
+            "current_skills": {
+                "html_css": 5,
+                "javascript": 2,
+                "design": 5
+            },
+            "learning_style": "visual",
+            "weekly_hours": 12,
+            "interests": [
+                "frontend",
+                "user experience"
+            ]
+        },
+        {
+            "id": "user_025",
+            "name": "Mark Turner",
+            "current_role": "Data Scientist",
+            "target_role": "ml_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "python": 5,
+                "ml_fundamentals": 4,
+                "deep_learning": 3,
+                "statistics": 4,
+                "data_analysis": 4,
+                "pandas": 5,
+                "scikit_learn": 4
+            },
+            "learning_style": "project-based",
+            "weekly_hours": 10,
+            "interests": [
+                "production ML",
+                "MLOps"
+            ]
+        },
+        {
+            "id": "user_026",
+            "name": "Patricia Adams",
+            "current_role": "Technical Lead",
+            "target_role": "cloud_architect",
+            "years_experience": 10,
+            "current_skills": {
+                "python": 5,
+                "java": 5,
+                "sql": 4,
+                "git": 5,
+                "docker": 4,
+                "kubernetes": 3,
+                "aws": 3,
+                "system_design": 4,
+                "leadership": 4
+            },
+            "learning_style": "reading",
+            "weekly_hours": 5,
+            "interests": [
+                "architecture",
+                "cloud strategy"
+            ]
+        },
+        {
+            "id": "user_027",
+            "name": "George Nelson",
+            "current_role": "IT Support",
+            "target_role": "devops_engineer",
+            "years_experience": 2,
+            "current_skills": {
+                "linux": 3,
+                "networking": 3,
+                "python": 1
+            },
+            "learning_style": "structured",
+            "weekly_hours": 12,
+            "interests": [
+                "automation",
+                "cloud"
+            ]
+        },
+        {
+            "id": "user_028",
+            "name": "Catherine Hill",
+            "current_role": "Statistician",
+            "target_role": "data_scientist",
+            "years_experience": 5,
+            "current_skills": {
+                "statistics": 5,
+                "r_language": 4,
+                "data_analysis": 4,
+                "sql": 2,
+                "python": 2
+            },
+            "learning_style": "research",
+            "weekly_hours": 8,
+            "interests": [
+                "causal inference",
+                "experimentation"
+            ]
+        },
+        {
+            "id": "user_029",
+            "name": "Frank Baker",
+            "current_role": "Security Analyst",
+            "target_role": "devops_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "linux": 4,
+                "python": 3,
+                "networking": 4,
+                "security": 5,
+                "git": 2
+            },
+            "learning_style": "hands-on",
+            "weekly_hours": 10,
+            "interests": [
+                "DevSecOps",
+                "automation"
+            ]
+        },
+        {
+            "id": "user_030",
+            "name": "Margaret Gonzalez",
+            "current_role": "ML Engineer",
+            "target_role": "llm_engineer",
+            "years_experience": 4,
+            "current_skills": {
+                "python": 5,
+                "ml_fundamentals": 5,
+                "deep_learning": 4,
+                "tensorflow": 4,
+                "docker": 4,
+                "mlops": 3,
+                "nlp": 3
+            },
+            "learning_style": "research",
+            "weekly_hours": 12,
+            "interests": [
+                "LLMs",
+                "fine-tuning"
+            ]
+        }
+    ]
+}

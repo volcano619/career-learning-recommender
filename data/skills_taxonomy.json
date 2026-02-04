@@ -1,0 +1,606 @@
+{
+    "categories": {
+        "programming_languages": {
+            "name": "Programming Languages",
+            "skills": {
+                "python": {
+                    "name": "Python",
+                    "level": "fundamental",
+                    "related": [
+                        "data_analysis",
+                        "machine_learning",
+                        "web_development"
+                    ],
+                    "prerequisites": []
+                },
+                "javascript": {
+                    "name": "JavaScript",
+                    "level": "fundamental",
+                    "related": [
+                        "web_development",
+                        "react",
+                        "nodejs"
+                    ],
+                    "prerequisites": []
+                },
+                "sql": {
+                    "name": "SQL",
+                    "level": "fundamental",
+                    "related": [
+                        "database",
+                        "data_analysis"
+                    ],
+                    "prerequisites": []
+                },
+                "java": {
+                    "name": "Java",
+                    "level": "fundamental",
+                    "related": [
+                        "spring",
+                        "android"
+                    ],
+                    "prerequisites": []
+                },
+                "go": {
+                    "name": "Go",
+                    "level": "intermediate",
+                    "related": [
+                        "microservices",
+                        "cloud_native"
+                    ],
+                    "prerequisites": [
+                        "python"
+                    ]
+                },
+                "rust": {
+                    "name": "Rust",
+                    "level": "advanced",
+                    "related": [
+                        "systems_programming",
+                        "performance"
+                    ],
+                    "prerequisites": [
+                        "python",
+                        "go"
+                    ]
+                }
+            }
+        },
+        "data_science": {
+            "name": "Data Science",
+            "skills": {
+                "data_analysis": {
+                    "name": "Data Analysis",
+                    "level": "fundamental",
+                    "related": [
+                        "python",
+                        "sql",
+                        "statistics"
+                    ],
+                    "prerequisites": [
+                        "python",
+                        "sql"
+                    ]
+                },
+                "statistics": {
+                    "name": "Statistics",
+                    "level": "fundamental",
+                    "related": [
+                        "data_analysis",
+                        "machine_learning"
+                    ],
+                    "prerequisites": []
+                },
+                "data_visualization": {
+                    "name": "Data Visualization",
+                    "level": "intermediate",
+                    "related": [
+                        "data_analysis",
+                        "python"
+                    ],
+                    "prerequisites": [
+                        "data_analysis"
+                    ]
+                },
+                "pandas": {
+                    "name": "Pandas",
+                    "level": "intermediate",
+                    "related": [
+                        "python",
+                        "data_analysis"
+                    ],
+                    "prerequisites": [
+                        "python"
+                    ]
+                },
+                "numpy": {
+                    "name": "NumPy",
+                    "level": "intermediate",
+                    "related": [
+                        "python",
+                        "machine_learning"
+                    ],
+                    "prerequisites": [
+                        "python"
+                    ]
+                }
+            }
+        },
+        "machine_learning": {
+            "name": "Machine Learning",
+            "skills": {
+                "ml_fundamentals": {
+                    "name": "ML Fundamentals",
+                    "level": "intermediate",
+                    "related": [
+                        "statistics",
+                        "python"
+                    ],
+                    "prerequisites": [
+                        "python",
+                        "statistics"
+                    ]
+                },
+                "supervised_learning": {
+                    "name": "Supervised Learning",
+                    "level": "intermediate",
+                    "related": [
+                        "ml_fundamentals",
+                        "scikit_learn"
+                    ],
+                    "prerequisites": [
+                        "ml_fundamentals"
+                    ]
+                },
+                "unsupervised_learning": {
+                    "name": "Unsupervised Learning",
+                    "level": "intermediate",
+                    "related": [
+                        "ml_fundamentals",
+                        "clustering"
+                    ],
+                    "prerequisites": [
+                        "ml_fundamentals"
+                    ]
+                },
+                "deep_learning": {
+                    "name": "Deep Learning",
+                    "level": "advanced",
+                    "related": [
+                        "neural_networks",
+                        "tensorflow",
+                        "pytorch"
+                    ],
+                    "prerequisites": [
+                        "ml_fundamentals",
+                        "numpy"
+                    ]
+                },
+                "nlp": {
+                    "name": "Natural Language Processing",
+                    "level": "advanced",
+                    "related": [
+                        "deep_learning",
+                        "transformers"
+                    ],
+                    "prerequisites": [
+                        "deep_learning",
+                        "python"
+                    ]
+                },
+                "computer_vision": {
+                    "name": "Computer Vision",
+                    "level": "advanced",
+                    "related": [
+                        "deep_learning",
+                        "opencv"
+                    ],
+                    "prerequisites": [
+                        "deep_learning"
+                    ]
+                },
+                "mlops": {
+                    "name": "MLOps",
+                    "level": "advanced",
+                    "related": [
+                        "docker",
+                        "kubernetes",
+                        "ml_fundamentals"
+                    ],
+                    "prerequisites": [
+                        "ml_fundamentals",
+                        "docker"
+                    ]
+                },
+                "scikit_learn": {
+                    "name": "Scikit-learn",
+                    "level": "intermediate",
+                    "related": [
+                        "python",
+                        "ml_fundamentals"
+                    ],
+                    "prerequisites": [
+                        "python",
+                        "ml_fundamentals"
+                    ]
+                },
+                "tensorflow": {
+                    "name": "TensorFlow",
+                    "level": "advanced",
+                    "related": [
+                        "deep_learning",
+                        "python"
+                    ],
+                    "prerequisites": [
+                        "deep_learning"
+                    ]
+                },
+                "pytorch": {
+                    "name": "PyTorch",
+                    "level": "advanced",
+                    "related": [
+                        "deep_learning",
+                        "python"
+                    ],
+                    "prerequisites": [
+                        "deep_learning"
+                    ]
+                },
+                "llm": {
+                    "name": "Large Language Models",
+                    "level": "expert",
+                    "related": [
+                        "nlp",
+                        "transformers",
+                        "deep_learning"
+                    ],
+                    "prerequisites": [
+                        "nlp",
+                        "deep_learning"
+                    ]
+                },
+                "rag": {
+                    "name": "RAG Systems",
+                    "level": "expert",
+                    "related": [
+                        "llm",
+                        "vector_databases"
+                    ],
+                    "prerequisites": [
+                        "llm",
+                        "nlp"
+                    ]
+                }
+            }
+        },
+        "cloud_computing": {
+            "name": "Cloud Computing",
+            "skills": {
+                "cloud_fundamentals": {
+                    "name": "Cloud Fundamentals",
+                    "level": "fundamental",
+                    "related": [
+                        "aws",
+                        "azure",
+                        "gcp"
+                    ],
+                    "prerequisites": []
+                },
+                "aws": {
+                    "name": "AWS",
+                    "level": "intermediate",
+                    "related": [
+                        "cloud_fundamentals",
+                        "ec2",
+                        "s3"
+                    ],
+                    "prerequisites": [
+                        "cloud_fundamentals"
+                    ]
+                },
+                "azure": {
+                    "name": "Azure",
+                    "level": "intermediate",
+                    "related": [
+                        "cloud_fundamentals"
+                    ],
+                    "prerequisites": [
+                        "cloud_fundamentals"
+                    ]
+                },
+                "gcp": {
+                    "name": "Google Cloud Platform",
+                    "level": "intermediate",
+                    "related": [
+                        "cloud_fundamentals"
+                    ],
+                    "prerequisites": [
+                        "cloud_fundamentals"
+                    ]
+                },
+                "serverless": {
+                    "name": "Serverless Architecture",
+                    "level": "advanced",
+                    "related": [
+                        "aws",
+                        "cloud_native"
+                    ],
+                    "prerequisites": [
+                        "aws"
+                    ]
+                },
+                "cloud_architecture": {
+                    "name": "Cloud Architecture",
+                    "level": "expert",
+                    "related": [
+                        "aws",
+                        "azure",
+                        "gcp",
+                        "microservices"
+                    ],
+                    "prerequisites": [
+                        "aws",
+                        "docker",
+                        "kubernetes"
+                    ]
+                }
+            }
+        },
+        "devops": {
+            "name": "DevOps",
+            "skills": {
+                "git": {
+                    "name": "Git",
+                    "level": "fundamental",
+                    "related": [
+                        "version_control",
+                        "github"
+                    ],
+                    "prerequisites": []
+                },
+                "docker": {
+                    "name": "Docker",
+                    "level": "intermediate",
+                    "related": [
+                        "containers",
+                        "kubernetes"
+                    ],
+                    "prerequisites": [
+                        "linux"
+                    ]
+                },
+                "kubernetes": {
+                    "name": "Kubernetes",
+                    "level": "advanced",
+                    "related": [
+                        "docker",
+                        "cloud_native"
+                    ],
+                    "prerequisites": [
+                        "docker"
+                    ]
+                },
+                "ci_cd": {
+                    "name": "CI/CD",
+                    "level": "intermediate",
+                    "related": [
+                        "git",
+                        "jenkins",
+                        "github_actions"
+                    ],
+                    "prerequisites": [
+                        "git"
+                    ]
+                },
+                "terraform": {
+                    "name": "Terraform",
+                    "level": "advanced",
+                    "related": [
+                        "infrastructure_as_code",
+                        "cloud_fundamentals"
+                    ],
+                    "prerequisites": [
+                        "cloud_fundamentals"
+                    ]
+                },
+                "linux": {
+                    "name": "Linux",
+                    "level": "fundamental",
+                    "related": [
+                        "bash",
+                        "devops"
+                    ],
+                    "prerequisites": []
+                },
+                "monitoring": {
+                    "name": "Monitoring & Observability",
+                    "level": "advanced",
+                    "related": [
+                        "prometheus",
+                        "grafana"
+                    ],
+                    "prerequisites": [
+                        "docker",
+                        "kubernetes"
+                    ]
+                }
+            }
+        },
+        "web_development": {
+            "name": "Web Development",
+            "skills": {
+                "html_css": {
+                    "name": "HTML/CSS",
+                    "level": "fundamental",
+                    "related": [
+                        "javascript",
+                        "web_development"
+                    ],
+                    "prerequisites": []
+                },
+                "react": {
+                    "name": "React",
+                    "level": "intermediate",
+                    "related": [
+                        "javascript",
+                        "frontend"
+                    ],
+                    "prerequisites": [
+                        "javascript",
+                        "html_css"
+                    ]
+                },
+                "nodejs": {
+                    "name": "Node.js",
+                    "level": "intermediate",
+                    "related": [
+                        "javascript",
+                        "backend"
+                    ],
+                    "prerequisites": [
+                        "javascript"
+                    ]
+                },
+                "rest_api": {
+                    "name": "REST API Design",
+                    "level": "intermediate",
+                    "related": [
+                        "backend",
+                        "http"
+                    ],
+                    "prerequisites": [
+                        "python"
+                    ]
+                },
+                "graphql": {
+                    "name": "GraphQL",
+                    "level": "advanced",
+                    "related": [
+                        "api",
+                        "react"
+                    ],
+                    "prerequisites": [
+                        "rest_api"
+                    ]
+                },
+                "fastapi": {
+                    "name": "FastAPI",
+                    "level": "intermediate",
+                    "related": [
+                        "python",
+                        "rest_api"
+                    ],
+                    "prerequisites": [
+                        "python",
+                        "rest_api"
+                    ]
+                }
+            }
+        },
+        "database": {
+            "name": "Database",
+            "skills": {
+                "sql_advanced": {
+                    "name": "Advanced SQL",
+                    "level": "intermediate",
+                    "related": [
+                        "sql",
+                        "database_design"
+                    ],
+                    "prerequisites": [
+                        "sql"
+                    ]
+                },
+                "postgresql": {
+                    "name": "PostgreSQL",
+                    "level": "intermediate",
+                    "related": [
+                        "sql",
+                        "database"
+                    ],
+                    "prerequisites": [
+                        "sql"
+                    ]
+                },
+                "mongodb": {
+                    "name": "MongoDB",
+                    "level": "intermediate",
+                    "related": [
+                        "nosql",
+                        "database"
+                    ],
+                    "prerequisites": []
+                },
+                "redis": {
+                    "name": "Redis",
+                    "level": "intermediate",
+                    "related": [
+                        "caching",
+                        "database"
+                    ],
+                    "prerequisites": []
+                },
+                "vector_databases": {
+                    "name": "Vector Databases",
+                    "level": "advanced",
+                    "related": [
+                        "embeddings",
+                        "llm",
+                        "rag"
+                    ],
+                    "prerequisites": [
+                        "ml_fundamentals"
+                    ]
+                },
+                "database_design": {
+                    "name": "Database Design",
+                    "level": "advanced",
+                    "related": [
+                        "sql",
+                        "data_modeling"
+                    ],
+                    "prerequisites": [
+                        "sql"
+                    ]
+                }
+            }
+        },
+        "soft_skills": {
+            "name": "Soft Skills",
+            "skills": {
+                "communication": {
+                    "name": "Technical Communication",
+                    "level": "fundamental",
+                    "related": [
+                        "presentation",
+                        "documentation"
+                    ],
+                    "prerequisites": []
+                },
+                "leadership": {
+                    "name": "Technical Leadership",
+                    "level": "advanced",
+                    "related": [
+                        "communication",
+                        "project_management"
+                    ],
+                    "prerequisites": [
+                        "communication"
+                    ]
+                },
+                "system_design": {
+                    "name": "System Design",
+                    "level": "expert",
+                    "related": [
+                        "architecture",
+                        "scalability"
+                    ],
+                    "prerequisites": [
+                        "cloud_fundamentals",
+                        "database_design"
+                    ]
+                }
+            }
+        }
+    }
+}

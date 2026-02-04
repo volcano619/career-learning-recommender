@@ -1,0 +1,365 @@
+{
+    "roles": {
+        "data_scientist": {
+            "name": "Data Scientist",
+            "description": "Analyze complex data to help organizations make better decisions",
+            "required_skills": [
+                "python",
+                "sql",
+                "statistics",
+                "data_analysis",
+                "data_visualization",
+                "ml_fundamentals",
+                "supervised_learning",
+                "pandas",
+                "numpy"
+            ],
+            "nice_to_have": [
+                "deep_learning",
+                "nlp",
+                "cloud_fundamentals",
+                "docker"
+            ],
+            "skill_importance": {
+                "python": 1.0,
+                "statistics": 0.95,
+                "ml_fundamentals": 0.9,
+                "sql": 0.85,
+                "data_analysis": 0.85,
+                "pandas": 0.8,
+                "data_visualization": 0.75
+            },
+            "salary_range": "$90,000 - $150,000",
+            "growth_roles": [
+                "senior_data_scientist",
+                "ml_engineer",
+                "data_science_manager"
+            ]
+        },
+        "ml_engineer": {
+            "name": "Machine Learning Engineer",
+            "description": "Design, build, and deploy machine learning systems at scale",
+            "required_skills": [
+                "python",
+                "ml_fundamentals",
+                "deep_learning",
+                "docker",
+                "kubernetes",
+                "mlops",
+                "tensorflow",
+                "pytorch",
+                "git",
+                "cloud_fundamentals"
+            ],
+            "nice_to_have": [
+                "aws",
+                "system_design",
+                "go",
+                "llm",
+                "rag"
+            ],
+            "skill_importance": {
+                "python": 1.0,
+                "ml_fundamentals": 0.95,
+                "deep_learning": 0.9,
+                "mlops": 0.85,
+                "docker": 0.8,
+                "kubernetes": 0.75,
+                "cloud_fundamentals": 0.7
+            },
+            "salary_range": "$120,000 - $200,000",
+            "growth_roles": [
+                "senior_ml_engineer",
+                "ml_architect",
+                "ai_director"
+            ]
+        },
+        "data_engineer": {
+            "name": "Data Engineer",
+            "description": "Build and maintain data pipelines and infrastructure",
+            "required_skills": [
+                "python",
+                "sql",
+                "sql_advanced",
+                "postgresql",
+                "docker",
+                "cloud_fundamentals",
+                "aws",
+                "data_analysis"
+            ],
+            "nice_to_have": [
+                "kubernetes",
+                "terraform",
+                "mongodb",
+                "redis",
+                "go"
+            ],
+            "skill_importance": {
+                "sql": 1.0,
+                "python": 0.95,
+                "sql_advanced": 0.9,
+                "cloud_fundamentals": 0.85,
+                "aws": 0.85,
+                "docker": 0.8,
+                "postgresql": 0.75
+            },
+            "salary_range": "$100,000 - $170,000",
+            "growth_roles": [
+                "senior_data_engineer",
+                "data_architect",
+                "platform_engineer"
+            ]
+        },
+        "cloud_architect": {
+            "name": "Cloud Architect",
+            "description": "Design and oversee cloud computing strategy and infrastructure",
+            "required_skills": [
+                "cloud_fundamentals",
+                "aws",
+                "docker",
+                "kubernetes",
+                "terraform",
+                "linux",
+                "cloud_architecture",
+                "system_design",
+                "monitoring"
+            ],
+            "nice_to_have": [
+                "azure",
+                "gcp",
+                "serverless",
+                "leadership"
+            ],
+            "skill_importance": {
+                "cloud_architecture": 1.0,
+                "aws": 0.95,
+                "kubernetes": 0.9,
+                "terraform": 0.85,
+                "system_design": 0.85,
+                "docker": 0.8,
+                "monitoring": 0.75
+            },
+            "salary_range": "$140,000 - $220,000",
+            "growth_roles": [
+                "principal_architect",
+                "cto",
+                "vp_engineering"
+            ]
+        },
+        "devops_engineer": {
+            "name": "DevOps Engineer",
+            "description": "Implement and manage CI/CD pipelines and infrastructure automation",
+            "required_skills": [
+                "linux",
+                "git",
+                "docker",
+                "kubernetes",
+                "ci_cd",
+                "terraform",
+                "cloud_fundamentals",
+                "aws",
+                "monitoring"
+            ],
+            "nice_to_have": [
+                "python",
+                "go",
+                "serverless",
+                "security"
+            ],
+            "skill_importance": {
+                "docker": 1.0,
+                "kubernetes": 0.95,
+                "ci_cd": 0.9,
+                "terraform": 0.85,
+                "linux": 0.85,
+                "aws": 0.8,
+                "monitoring": 0.75
+            },
+            "salary_range": "$100,000 - $160,000",
+            "growth_roles": [
+                "senior_devops",
+                "sre",
+                "platform_engineer"
+            ]
+        },
+        "backend_developer": {
+            "name": "Backend Developer",
+            "description": "Build server-side application logic and APIs",
+            "required_skills": [
+                "python",
+                "sql",
+                "git",
+                "rest_api",
+                "docker",
+                "postgresql",
+                "linux"
+            ],
+            "nice_to_have": [
+                "nodejs",
+                "fastapi",
+                "graphql",
+                "redis",
+                "mongodb",
+                "kubernetes"
+            ],
+            "skill_importance": {
+                "python": 1.0,
+                "rest_api": 0.95,
+                "sql": 0.9,
+                "git": 0.85,
+                "docker": 0.8,
+                "postgresql": 0.75
+            },
+            "salary_range": "$80,000 - $140,000",
+            "growth_roles": [
+                "senior_backend",
+                "backend_architect",
+                "engineering_manager"
+            ]
+        },
+        "fullstack_developer": {
+            "name": "Full Stack Developer",
+            "description": "Build end-to-end web applications including frontend and backend",
+            "required_skills": [
+                "javascript",
+                "html_css",
+                "react",
+                "nodejs",
+                "sql",
+                "git",
+                "rest_api"
+            ],
+            "nice_to_have": [
+                "docker",
+                "graphql",
+                "mongodb",
+                "aws",
+                "typescript"
+            ],
+            "skill_importance": {
+                "javascript": 1.0,
+                "react": 0.95,
+                "nodejs": 0.9,
+                "html_css": 0.85,
+                "rest_api": 0.85,
+                "sql": 0.8,
+                "git": 0.75
+            },
+            "salary_range": "$85,000 - $150,000",
+            "growth_roles": [
+                "senior_fullstack",
+                "tech_lead",
+                "engineering_manager"
+            ]
+        },
+        "ai_researcher": {
+            "name": "AI Research Scientist",
+            "description": "Conduct research to advance the field of artificial intelligence",
+            "required_skills": [
+                "python",
+                "deep_learning",
+                "pytorch",
+                "statistics",
+                "ml_fundamentals",
+                "nlp",
+                "computer_vision",
+                "llm"
+            ],
+            "nice_to_have": [
+                "rag",
+                "tensorflow",
+                "communication",
+                "leadership"
+            ],
+            "skill_importance": {
+                "deep_learning": 1.0,
+                "pytorch": 0.95,
+                "llm": 0.9,
+                "nlp": 0.85,
+                "statistics": 0.85,
+                "python": 0.8,
+                "computer_vision": 0.75
+            },
+            "salary_range": "$150,000 - $300,000",
+            "growth_roles": [
+                "senior_researcher",
+                "research_director",
+                "chief_scientist"
+            ]
+        },
+        "llm_engineer": {
+            "name": "LLM/GenAI Engineer",
+            "description": "Build and deploy applications powered by large language models",
+            "required_skills": [
+                "python",
+                "deep_learning",
+                "nlp",
+                "llm",
+                "rag",
+                "vector_databases",
+                "fastapi",
+                "docker"
+            ],
+            "nice_to_have": [
+                "kubernetes",
+                "mlops",
+                "cloud_fundamentals",
+                "aws"
+            ],
+            "skill_importance": {
+                "llm": 1.0,
+                "rag": 0.95,
+                "nlp": 0.9,
+                "python": 0.85,
+                "vector_databases": 0.85,
+                "deep_learning": 0.8,
+                "fastapi": 0.7
+            },
+            "salary_range": "$140,000 - $250,000",
+            "growth_roles": [
+                "senior_llm_engineer",
+                "ai_architect",
+                "head_of_ai"
+            ]
+        }
+    },
+    "career_transitions": {
+        "data_scientist_to_ml_engineer": {
+            "from": "data_scientist",
+            "to": "ml_engineer",
+            "skill_gap": [
+                "docker",
+                "kubernetes",
+                "mlops",
+                "deep_learning"
+            ],
+            "difficulty": "moderate",
+            "typical_duration": "6-12 months"
+        },
+        "backend_to_devops": {
+            "from": "backend_developer",
+            "to": "devops_engineer",
+            "skill_gap": [
+                "kubernetes",
+                "ci_cd",
+                "terraform",
+                "monitoring"
+            ],
+            "difficulty": "moderate",
+            "typical_duration": "6-9 months"
+        },
+        "data_scientist_to_llm_engineer": {
+            "from": "data_scientist",
+            "to": "llm_engineer",
+            "skill_gap": [
+                "llm",
+                "rag",
+                "vector_databases",
+                "deep_learning",
+                "nlp"
+            ],
+            "difficulty": "moderate",
+            "typical_duration": "6-12 months"
+        }
+    }
+}
