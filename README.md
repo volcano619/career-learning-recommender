@@ -14,7 +14,10 @@ This document presents the business case for a **hybrid AI-powered course recomm
 ## 📸 Business Results
 
 ### Business Impact Dashboard — Revenue & Retention
-![Recommender Business Impact — $48M additional revenue, 100-150% better completion rates, 100x ROI](./screenshots/recommender_business_impact.png)
+![Recommender Business Impact — $48M additional revenue, 100-150% better completion rates, 100x ROI](./screenshots/recommender_business_impact_v2.png)
+
+### Solution UI — Personalized Learning Path
+![Recommender Solution UI — Skill gap analysis, learning path visualization, explainable recommendations](./screenshots/recommender_solution_ui_v2.png)
 
 ---
 
