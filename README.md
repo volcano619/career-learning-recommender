@@ -19,6 +19,8 @@ This document presents the business case for a **hybrid AI-powered course recomm
 ### Solution UI — Personalized Learning Path
 ![Recommender Solution UI — Skill gap analysis, learning path visualization, explainable recommendations](./screenshots/recommender_solution_ui_v2.png)
 
+**🔴 Live Cloud Deployment:** [https://huggingface.co/spaces/vnicks177/RecommenderSystem-demo](https://huggingface.co/spaces/vnicks177/RecommenderSystem-demo)
+
 ---
 
 ## 1. Business Problem
