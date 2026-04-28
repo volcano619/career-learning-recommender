@@ -118,6 +118,15 @@ except Exception as e:
 with st.sidebar:
     st.markdown("## 👤 User Profile")
     
+    # Help Section
+    shared_ui.add_help_section(
+        "Career Recommender",
+        "Personalized career path generator and skill gap analyzer.",
+        "Select your target role and current skills. The AI will map your journey and recommend resources.",
+        "Traditional job boards show roles; this system identifies the EXACT skill gaps and provides a learning roadmap.",
+        "LinkedIn says a job needs 'Python'; this app tells you 'You need Pandas/NumPy' and gives you a 1-month plan."
+    )
+    
     # User selection
     user_options = {user.id: f"{user.name} ({user.current_role})" for user in users.values()}
     if "selected_user_id" not in st.session_state:
