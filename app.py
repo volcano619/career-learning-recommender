@@ -160,10 +160,13 @@ with st.sidebar:
     
     # User selection
     user_options = {user.id: f"{user.name} ({user.current_role})" for user in users.values()}
+    if "selected_user_id" not in st.session_state:
+        st.session_state.selected_user_id = list(user_options.keys())[0]
     selected_user_id = st.selectbox(
         "Select User",
         options=list(user_options.keys()),
         format_func=lambda x: user_options[x],
+        key="selected_user_id",
         help="Select a user profile to see personalized recommendations"
     )
     
@@ -201,8 +204,14 @@ with st.sidebar:
     # Settings
     st.markdown("---")
     st.markdown("### ⚙️ Settings")
-    top_k = st.slider("Number of Recommendations", 3, 15, 10)
-    show_explanations = st.checkbox("Show Detailed Explanations", value=True)
+    if "rec_top_k" not in st.session_state:
+        from config import DEFAULT_TOP_K
+        st.session_state.rec_top_k = DEFAULT_TOP_K
+    top_k = st.slider("Number of Recommendations", 3, 15, key="rec_top_k")
+    
+    if "show_explanations" not in st.session_state:
+        st.session_state.show_explanations = True
+    show_explanations = st.checkbox("Show Detailed Explanations", key="show_explanations")
 
 
 # ============================================================================
