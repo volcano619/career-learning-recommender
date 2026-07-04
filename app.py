@@ -24,6 +24,7 @@ from data_loader import load_all_data
 from recommenders.hybrid import HybridRecommender
 from models.data_models import Recommendation
 import shared_ui
+import navigation
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -122,9 +123,9 @@ with st.sidebar:
     shared_ui.add_help_section(
         "Career Recommender",
         "Personalized career path generator and skill gap analyzer.",
-        "Select your target role and current skills. The AI will map your journey and recommend resources.",
-        "Traditional job boards show roles; this system identifies the EXACT skill gaps and provides a learning roadmap.",
-        "LinkedIn says a job needs 'Python'; this app tells you 'You need Pandas/NumPy' and gives you a 1-month plan."
+        "Select your target role and current skills. Use the Simulator tab to check off skills and see the path adapt.",
+        "Includes a Career ROI salary bump projection. Features a dynamic learning simulator where checking off skills updates downstream course sequences in real-time.",
+        "Go to the 'Learning Path' tab and select skills to watch the course timeline and prerequisites dynamically unlock."
     )
     
     # User selection
@@ -181,6 +182,9 @@ with st.sidebar:
     if "show_explanations" not in st.session_state:
         st.session_state.show_explanations = True
     show_explanations = st.checkbox("Show Detailed Explanations", key="show_explanations")
+    
+    # Portfolio Navigation (Agent D - PM)
+    navigation.add_portfolio_navigation("RecommenderSystem")
 
 
 # ============================================================================
@@ -316,14 +320,35 @@ with tab2:
         result = recommender.recommend(selected_user_id, top_k)
     
     if result.recommendations:
-        # Summary
-        col1, col2, col3 = st.columns(3)
+        # Summary (Agent B - BA & Agent D - PM)
+        col1, col2, col3, col4 = st.columns(4)
         with col1:
             shared_ui.create_metric_card("Recommendations", str(len(result.recommendations)), delta="Personalized", delta_pos=True)
         with col2:
             shared_ui.create_metric_card("Learning Effort", f"{result.estimated_learning_hours}h", delta="Total time")
         with col3:
             shared_ui.create_metric_card("Skills Covered", str(result.total_missing_skills), delta="Target Role Fit")
+        with col4:
+            # Modeled Salary Bump Calculator (Agent B - BA)
+            current_role_key = selected_user.current_role.lower().replace(" ", "_").replace("/", "_").replace("llm_genai", "llm")
+            current_path = career_paths.get(current_role_key)
+            current_avg = 90000.0
+            if current_path:
+                cleaned = current_path.salary_range.replace("$", "").replace(",", "")
+                parts = cleaned.split("-")
+                if len(parts) == 2:
+                    current_avg = (float(parts[0].strip()) + float(parts[1].strip())) / 2
+            
+            target_path = career_paths.get(selected_user.target_role)
+            target_avg = 140000.0
+            if target_path:
+                cleaned = target_path.salary_range.replace("$", "").replace(",", "")
+                parts = cleaned.split("-")
+                if len(parts) == 2:
+                    target_avg = (float(parts[0].strip()) + float(parts[1].strip())) / 2
+                    
+            salary_bump = target_avg - current_avg
+            shared_ui.create_metric_card("Projected Salary Bump", f"+${salary_bump:,.0f}*", delta="ROI-Driven learning")
         
         st.markdown("---")
         
@@ -393,7 +418,33 @@ with tab3:
     st.markdown("## 🛤️ Personalized Learning Path")
     st.markdown("Courses ordered by the optimal learning sequence")
     
-    # Get learning path
+    # Store backup of user skills for simulation (Agent D - PM)
+    original_skills = selected_user.current_skills.copy()
+    
+    # Identify missing skills
+    skill_gaps = recommender.get_skill_gaps(selected_user_id)
+    all_missing_skill_ids = []
+    if skill_gaps:
+        all_missing_skill_ids = [
+            gap.skill_id for gap in 
+            skill_gaps.get('critical', []) + 
+            skill_gaps.get('important', []) + 
+            skill_gaps.get('nice_to_have', [])
+        ]
+        
+    st.markdown("### 🛠️ Interactive Learning Roadmap Simulator")
+    sim_completed = st.multiselect(
+        "Check off skills you want to simulate as completed to see your learning roadmap adapt in real-time:",
+        options=all_missing_skill_ids,
+        format_func=lambda x: skills_taxonomy['skills'].get(x, {}).get('name', x),
+        key="simulated_skills_key"
+    )
+    
+    # Temporarily override user skills
+    for s_id in sim_completed:
+        selected_user.current_skills[s_id] = 4
+        
+    # Recalculate learning path and skills
     learning_path = recommender.get_learning_path(selected_user_id, max_courses=10)
     next_skills = recommender.get_next_skills(selected_user_id, count=8)
     
@@ -480,6 +531,9 @@ with tab3:
                     st.markdown(f"**Skills:** {', '.join(skills_list)}")
     else:
         st.info("No learning path available.")
+        
+    # Restore original user skills (Agent D - PM)
+    selected_user.current_skills = original_skills
 
 
 # ============================================================================
